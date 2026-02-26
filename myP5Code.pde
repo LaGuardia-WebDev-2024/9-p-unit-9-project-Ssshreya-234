@@ -12,11 +12,14 @@ draw = function(){
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
-  if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+  if (mousePressed) {
+    text("NO", 176, 200);
   }
-  
+  if (mousePressed) {
+    text("Not at all", 159, 229); 
+  }
+
+  if()
 };
 
 mouseClicked = function(){
