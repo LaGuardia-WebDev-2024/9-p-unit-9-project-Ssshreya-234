@@ -12,14 +12,21 @@ draw = function(){
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
-  if (mousePressed) {
+  if (answer == 1) {
     text("NO", 176, 200);
   }
-  if (mousePressed) {
+  if (answer == 2) {
     text("Not at all", 159, 229); 
   }
 
-  if()
+if (answer == 3) {
+  text("girl no", 176, 200);
+}
+
+if (answer ==4) {
+  text("like no", 179, 200);
+}
+
 };
 
 mouseClicked = function(){
