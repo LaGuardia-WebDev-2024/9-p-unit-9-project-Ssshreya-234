@@ -31,8 +31,13 @@ if (answer ==4) {
 
 mouseClicked = function(){
   answer = round(random(1, 5));
+
+if(mousepressed && mouseX > 200 && mouseX < 180 && mouseY > 100 && mouseY < 200){
+  fill(187, 219,209);
+  rect(20,100,364,200);
+  fill(255,255,255);
+}
+
 };
-
-
 
 
