@@ -5,10 +5,10 @@ setup = function() {
 var answer = 1;
 
 draw = function(){
-  background(100,100,100);
+  background(255,100,100);
   fill(0, 0, 0);
   ellipse(200, 200, 375, 375);
-  fill(60, 0, 255);
+  fill(200, 0, 255);
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
@@ -23,20 +23,21 @@ if (answer == 3) {
   text("girl no", 176, 200);
 }
 
-if (answer ==4) {
+if (answer == 4) {
+  text("I guess bro", 176,200);
+}
+
+if (answer == 5) {
   text("like no", 179, 200);
 }
+
+
 
 };
 
 mouseClicked = function(){
   answer = round(random(1, 5));
 
-if(mousepressed && mouseX > 200 && mouseX < 180 && mouseY > 100 && mouseY < 200){
-  fill(187, 219,209);
-  rect(20,100,364,200);
-  fill(255,255,255);
-}
 
 };
 
